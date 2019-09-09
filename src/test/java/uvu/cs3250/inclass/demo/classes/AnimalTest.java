@@ -22,4 +22,9 @@ public class AnimalTest {
 	public void testCrawl() {
 		assertEquals("I am crawling...", anAnimal.crawl());
 	}
+	
+	@Test
+	public void testRun() {
+		assertEquals("", anAnimal.run());
+	}
 }

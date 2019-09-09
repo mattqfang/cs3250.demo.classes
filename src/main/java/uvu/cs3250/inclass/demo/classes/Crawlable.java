@@ -4,4 +4,8 @@ public interface Crawlable {
 	default String crawl() {
 		return "I am crawling...";
 	}
+	
+	default String run () {
+		return "I am crawling fast...";
+	}
 }
